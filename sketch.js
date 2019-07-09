@@ -7,7 +7,7 @@ function setup() {
 function draw() {
   // put drawing code here
   //1 bezier curve
-  bezier(850,200,100,100,900,900,150,800);
+  // bezier(850,200,100,100,900,900,150,800);
 
   // //looping belzier
   // //1
@@ -31,9 +31,9 @@ function draw() {
   // }
 
   // //5
-  // for(let i =0; i<900; i=i+100){
-  //   bezier(900,200,100,100,900,i,50,800);
-  // }
+  for(let i =0; i<900; i=i+50){
+    bezier(900,200,100,100,900,i,50,800);
+  }
 
 
 }
