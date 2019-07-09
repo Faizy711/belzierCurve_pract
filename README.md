@@ -1,0 +1,1 @@
+# belzierCurve_pract
